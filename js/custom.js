@@ -208,3 +208,49 @@ $(document).ready(function () {
 
 
 
+    // Initialize carousel for testimonials
+    $(".greycontent_slider").owlCarousel({
+      loop: true,
+      responsiveClass: true,
+      nav: true,
+      margin: 20,
+      autoplay: false,
+      autoplayTimeout: 4000,
+      smartSpeed: 400,
+      navText: [
+        "<img src='images/previmage.webp' alt='001 prev' width='50' height='50' />", 
+        "<img src='images/nextimage.webp' alt='001 next' width='50' height='50' />"
+      ],
+      responsive: {
+        0: { items: 1 },
+        600: { items: 1 },
+        768: { items: 2 },
+        1024: { items: 3 },
+        1200: { items: 3 }
+      }
+    });
+
+
+
+    // Initialize carousel for testimonials
+    $(".treadingblogs_slider").owlCarousel({
+      loop: !0,
+      responsiveClass: !0,
+      nav: !0,
+      margin: 0,
+      // autoplay: !0,
+      autoplayTimeout: 4e3,
+      smartSpeed: 400,
+      center: !0,
+      navText: [
+        "<img src='images/previmage.webp' alt='001 prev' width='50' height='50' />", 
+        "<img src='images/nextimage.webp' alt='001 next' width='50' height='50' />"
+      ],
+      responsive: {
+        0: { items: 1 },
+        600: { items: 1 },
+        768: { items: 2 },
+        1024: { items: 3 },
+        1200: { items: 3 }
+      }
+    });

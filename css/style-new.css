@@ -45,13 +45,13 @@ a:focus{
 /*==========================================*/
 
 .treatment_all_comm_div h3{
-    font-size: 26px !important;
+    font-size: 21px !important;
     font-weight: 600;
 }
 @media (max-width:600px){
 
 .treatment_all_comm_div h3{
-    font-size: 21px !important;
+    font-size: 18px !important;
     font-weight: 600;
 }
 }
@@ -614,16 +614,86 @@ a:focus{
 }
 
 
+
+
+
+
+
+/*==========================================*/
+/* table of content css*/
+/*==========================================*/
+.blog_para_content_section_new_css{
+    margin-top: 40px;
+}
+
+.blog_para_content_section_new_css .section_para_blog_common_css{
+ margin-bottom: 10px;
+}
+
+
+/*==========================================*/
+/* Grey Slider css*/
+/*==========================================*/
+.treatment_all_comm_div.blog_section_para_only_heading{
+    margin-top: 40px;
+}
+.treatment_all_comm_div.blog_section_para_only_heading .greycontent_slider .owl-dots{display:none}
+.treatment_all_comm_div.blog_section_para_only_heading .greycontent_slider .owl-item img{width:100%}
+.treatment_all_comm_div.blog_section_para_only_heading .greycontent_slider .owl-next,.treatment_all_comm_div.blog_section_para_only_heading .greycontent_slider .owl-prev{position:absolute;top:-5px;height:100%}
+.treatment_all_comm_div.blog_section_para_only_heading .greycontent_slider .owl-prev{left:-12px}
+.treatment_all_comm_div.blog_section_para_only_heading .greycontent_slider .owl-next{right:-12px}
+.treatment_all_comm_div.blog_section_para_only_heading .greycontent_box{height:280px;padding:20px;background-color:#f6f7fb;border-radius:16px;border-bottom:12px solid #e6e7ee}
+.treatment_all_comm_div.blog_section_para_only_heading .greycontent_box h4{text-align:center;font-size:21px;color:#154778;font-weight:600}
+.treatment_all_comm_div.blog_section_para_only_heading .greycontent_box hr{border:1px solid #dadada}
+@media(max-width:600px){
+    .treatment_all_comm_div.blog_section_para_only_heading{
+    margin-top: 30px;
+}
+.treatment_all_comm_div.blog_section_para_only_heading .greycontent_box h4{text-align:center;font-size:18px;color:#154778;font-weight:600}
+}
+
+/*==========================================*/
+/*.treatment_all_comm_div  treadingblogs_slider section css*/
+/*==========================================*/
+.treatment_all_comm_div .treadingblogs_slider .owl-item .item{margin-bottom:20px;margin-top:20px;text-align:center;border-radius:16px;color:#fff}
+.treatment_all_comm_div .treadingblogs_slider .owl-item .item{-webkit-transition:.3s;-o-transition:.3s;transition:.3s;-webkit-transform:scale(.8);-ms-transform:scale(.8);transform:scale(.8);opacity:1;background-color:#f6f7fb;color:#212121!important}
+.treatment_all_comm_div .treadingblogs_slider .owl-item.center .item{-webkit-transform:scale(1.15);-ms-transform:scale(1.15);transform:scale(1.15);opacity:1;background-color:#0c4475;color:#fff!important}
+.treatment_all_comm_div .treadingblogs_slider .owl-dots{display:none}
+.treatment_all_comm_div .treadingblogs_slider .owl-item img{width:100%;border-radius:16px 16px 0 0}
+.treatment_all_comm_div .treadingblogs_slider .owl-next,.treatment_all_comm_div .treadingblogs_slider .owl-prev{position:absolute;top:0px;height:100%}
+.treatment_all_comm_div .treadingblogs_slider .owl-prev{left:-12px}
+.treatment_all_comm_div .treadingblogs_slider .owl-next{right:-12px}
+.treatment_all_comm_div .treadingblogs_slider .owl-item .item p{text-align:left;font-size:16px;line-height:normal;padding:20px;border-top:2px solid #fff;color:#212121}
+.treatment_all_comm_div .treadingblogs_slider .owl-item .item a{text-align:left;font-size:16px;line-height:normal;color:#212121}
+.treatment_all_comm_div .treadingblogs_slider .owl-item.center a{color:#fff}
+@media (max-width:600px){
+.treatment_all_comm_div .treadingblogs_slider .owl-item.center .item{-webkit-transform:none;-ms-transform:none;margin-top:0;margin-bottom:0;transform:none;opacity:1;background-color:#0c4475;color:#fff!important}
+.treatment_all_comm_div .treadingblogs_slider .owl-item.center .item img{-webkit-transform:none;-ms-transform:none;transform:none;opacity:1}
+.treatment_all_comm_div .treadingblogs_slider .owl-item .item{margin-bottom:-5px;margin-top:20px;text-align:center;border-radius:16px;color:#fff}
+.treatment_all_comm_div .treadingblogs_slider .owl-next,.treatment_all_comm_div .treadingblogs_slider .owl-prev{position:absolute;top:-10px;height:100%}
+}
+
+
+
+
+
+
+
+
+
+
+
+
 /**********************************************************************************/
 /*==========================================*/
 /* Book an Appointment CSS*/
 /*==========================================*/
 /**********************************************************************************/
-.treatment_all_comm_div_new_book_an_appoinment .container{margin-top:35px;padding:30px 20px;background-color:#ecf7ff;border:none;border-radius:20px}
+.treatment_all_comm_div_new_book_an_appoinment .container{margin-top:35px;padding:20px;background-color:#ecf7ff;border:none;border-radius:20px}
 .form_section_div_book_an_appoinment h3 strong{font-size:34px}
 .form_section_div_book_an_appoinment h3 strong{font-weight:700;color:#1f83c5}
 @media(max-width:600px){
-.treatment_all_comm_div_new_book_an_appoinment .container{border-radius:0;padding:30px 15px}
+.treatment_all_comm_div_new_book_an_appoinment .container{border-radius:0;padding:20px 15px 15px}
 .form_section_div_book_an_appoinment h3{font-size:21px;margin-bottom:5px;line-height:normal}
 .form_section_div_book_an_appoinment h3 strong{font-weight:700;color:#1f83c5;font-size:21px;line-height:38px}
 }
@@ -631,7 +701,7 @@ a:focus{
 /*==========================================*/
 /* Book an APpoinment Form Form css*/
 /*==========================================*/
-.form_section_div_book_an_appoinment #evaluvationform{text-align:center;position:relative;margin-top:10px}
+.form_section_div_book_an_appoinment #evaluvationform{text-align:center;position:relative;margin-top:0}
 .form_section_div_book_an_appoinment #evaluvationform fieldset{border:0 none;border-radius:.5rem;box-sizing:border-box;width:100%;margin:0;position:relative}
 .form_section_div_book_an_appoinment .form-card{text-align:left}
 .form_section_div_book_an_appoinment #evaluvationform fieldset:not(:first-of-type){display:none}
@@ -639,13 +709,20 @@ a:focus{
 .form_section_div_book_an_appoinment #evaluvationform .action-button-previous{width:250px;margin-bottom:0;height:calc(1.5em + .75rem + 2px);line-height:1.6;color:#fff;border-radius:6px;font-weight:500;border:none;background-color:#1f83c5;text-transform:uppercase;border-radius:50px}
 .form_section_div_book_an_appoinment .card{z-index:0;border:none;position:relative}
 .form_section_div_book_an_appoinment .fs-title{font-size:25px;color:#673ab7;margin-bottom:15px;font-weight:400;text-align:left}
-.form_section_div_book_an_appoinment .purple-text{color:#673ab7;font-weight:400}
 .form_section_div_book_an_appoinment .steps{font-size:25px;color:gray;margin-bottom:10px;font-weight:400;text-align:right}
 .form_section_div_book_an_appoinment .fieldlabels{color:gray;text-align:left}
-.form_section_div_book_an_appoinment #progressbar{margin-bottom:30px;overflow:hidden;color:#d3d3d3}
-.form_section_div_book_an_appoinment #progressbar .active{color:#673ab7}
-.form_section_div_book_an_appoinment .progress{height:3px}
-.form_section_div_book_an_appoinment .progress-bar{background-color:#21507f;background-image:none}
+.form_section_div_book_an_appoinment #evaluvationform #progressbar{margin-bottom:0;overflow:hidden;color:#d3d3d3;padding-inline-start:00px}
+.form_section_div_book_an_appoinment #evaluvationform #progressbar .active{color:#154778}
+.form_section_div_book_an_appoinment #evaluvationform #progressbar li{list-style-type:none;font-size:15px;width:50%;float:left;position:relative;font-weight:400}
+.form_section_div_book_an_appoinment #evaluvationform #progressbar #account:before{font-family:FontAwesome;content:"\f13e"}
+.form_section_div_book_an_appoinment #evaluvationform #progressbar #personal:before{font-family:FontAwesome;content:"\f007"}
+.form_section_div_book_an_appoinment #evaluvationform #progressbar #payment:before{font-family:FontAwesome;content:"\f030"}
+.form_section_div_book_an_appoinment #evaluvationform #progressbar #confirm:before{font-family:FontAwesome;content:"\f00c"}
+.form_section_div_book_an_appoinment #evaluvationform #progressbar li:before{width:90%;height:2px;line-height:45px;display:block;font-size:20px;color:#fff;background:#d3d3d3;border-radius:0;margin:0 auto 10px auto;padding:2px}
+.form_section_div_book_an_appoinment #evaluvationform #progressbar li:after{content:'';width:100%;height:2px;background:#d3d3d3;position:absolute;left:0;top:25px;z-index:999}
+.form_section_div_book_an_appoinment #evaluvationform #progressbar li.active:after,.form_section_div_book_an_appoinment #evaluvationform #progressbar li.active:before{background:#154778}
+.form_section_div_book_an_appoinment #evaluvationform .progress{height:20px}
+.form_section_div_book_an_appoinment #evaluvationform .progress-bar{background-color:#154778}
 .form_section_div_book_an_appoinment .fit-image{width:100%;object-fit:cover}
 @media(max-width:600px){
 .form_section_div_book_an_appoinment #evaluvationform .action-button{width:100%}
@@ -673,6 +750,7 @@ a:focus{
 .treatment_all_comm_div_new_book_an_appoinment .form_custom_heading_testmonilas span{font-weight:600;color:#187fc3}
 .treatment_all_comm_div_new_book_an_appoinment .btn_custom_testmonilas{font-size:16px!important}
 }
+
 /*==========================================*/
 /* Book An Appoinment icon with Background section css*/
 /*==========================================*/
